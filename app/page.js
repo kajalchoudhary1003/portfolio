@@ -21,10 +21,10 @@ export default function Home() {
     <>
       {/* navigation */}
       <div className={`${pop.className}`}>
-        <nav className=" bg-primary mx-auto  lg:px-10 flex flex-row justify-between pb-2">
+        <nav className=" bg-primary mx-auto lg:px-10 flex flex-row justify-between pb-2">
           <div className="name">
             <h3
-              className={`${ram.className} kajal text-light lg:text-4xl md: text-2xl ml-2 cursor-pointer hover:skew-y-2`}
+              className={`${ram.className} kajal text-light lg:text-4xl md:text-2xl ml-2 cursor-pointer hover:skew-y-2`}
             >
               Kajal Choudhary
             </h3>
@@ -59,19 +59,19 @@ export default function Home() {
         {/* hi section */}
         <section className="flex md:flex-row md:justify-between bg-primary xs:hidden md:flex lg:pl-5 md:pl-0">
           {/* typewriter */}
-          <div className="w-1/2 flex flex-col justify-center lg:ml-8 md:ml-3">
+          <div className="w-1/2 flex flex-col justify-center lg:ml-8 md:ml-3 md:pt-4 lg:pt-0">
             <h1
-              className={`${pop.className} lg:text-4xl xl:text-5xl md:text-3xl text-dark`}
+              className={`${pop.className} lg:text-4xl xl:text-5xl  md:text-3xl text-dark`}
             >
               Hi, 👋
             </h1>
             <h1
-              className={`${pop.className} lg:text-4xl xl:text-5xl md:text-3xl text-dark`}
+              className={`${pop.className} lg:text-4xl xl:text-5xl  md:text-3xl text-dark`}
             >
-              I am Kajal Choudhary
+              I am <span className="gradient-text bg-clip-text text-transparent bg-gradient-to-r  from-secondary via-pink-500 to-dark font-extrabold">Kajal Choudhary</span>
             </h1>
             <h1
-              className={`${pop.className} lg:text-4xl xl:text-5xl md:text-3xl text-dark`}
+              className={`${pop.className} lg:text-4xl xl:text-5xl  md:text-3xl text-dark`}
             >
               <Typewriter
                 options={{
@@ -91,7 +91,7 @@ export default function Home() {
             <div className="flex flex-row mt-4">
               {/* github icon */}
               <svg
-                className="cursor-pointer fill-dark drop hover:fill-light hover:scale-105 hidden md:block mr-3 md:h-10 md:w-10 lg:h-12 lg:w-12"
+                className="cursor-pointer fill-dark drop hover:fill-light hover:scale-105 hidden md:block md:mr-2 lg:mr-3 md:h-9 md:w-9 lg:h-12 lg:w-12"
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
                 y="0px"
@@ -104,7 +104,7 @@ export default function Home() {
 
               {/* linkedin icon */}
               <svg
-                className="cursor-pointer fill-dark drop hover:fill-light hover:scale-105 hidden md:block mx-3 pt-1 md:h-10 md:w-10 lg:h-12 lg:w-12"
+                className="cursor-pointer fill-dark drop hover:fill-light hover:scale-105 hidden md:block md:mx-2 lg:mx-3 pt-1 md:h-9 md:w-9 lg:h-12 lg:w-12"
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
                 y="0px"
@@ -117,7 +117,7 @@ export default function Home() {
 
               {/* twitter icon */}
               <svg
-                className="cursor-pointer fill-dark drop hover:fill-light hover:scale-105 hidden md:block md:h-10 md:w-10 lg:h-12 lg:w-12 mx-3 pt-2"
+                className="cursor-pointer fill-dark drop hover:fill-light hover:scale-105 hidden md:block md:mx-2 md:h-9 md:w-9 lg:h-12 lg:w-12 lg:mx-3 pt-2"
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
                 y="0px"
@@ -130,7 +130,7 @@ export default function Home() {
 
               {/* medium icon */}
               <svg
-                className="cursor-pointer fill-dark drop hover:fill-light hover:scale-105 hidden md:block md:h-12 md:w-12 lg:h-14 lg:w-14 mx-3 "
+                className="cursor-pointer fill-dark drop hover:fill-light hover:scale-105 hidden md:block md:mx-2 md:h-11 md:w-11 lg:h-14 lg:w-14 lg:mx-3 "
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
                 y="0px"
@@ -143,7 +143,7 @@ export default function Home() {
 
               {/* instagram icon */}
               <svg
-                className="cursor-pointer fill-dark drop hover:fill-light hover:scale-105 hidden md:block md:h-10 md:w-10 lg:h-12 lg:w-12 mx-3 pt-2"
+                className="cursor-pointer fill-dark drop hover:fill-light hover:scale-105 hidden md:mx-2 md:block md:h-10 md:w-10 lg:h-12 lg:w-12 lg:mx-3 pt-2"
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
                 y="0px"
@@ -156,7 +156,7 @@ export default function Home() {
             </div>
             {/* button */}
             <Button
-              className={`${pop.className} border-solid border-2 border-dark text-light hover:bg-transparent hover:shadow-sm hover:shadow-dark lg:w-52 md:w-36 rounded-full resume hover:font-semibold  mt-5 lg:text-xl md:text-lg`}
+              className={`${pop.className} border-solid border-2 border-dark text-light hover:bg-transparent hover:shadow-sm hover:shadow-dark lg:w-52 md:w-36 md:h-8 lg:h-10 rounded-full resume hover:font-semibold  mt-5 lg:text-xl md:text-lg`}
             >
               Resume
             </Button>

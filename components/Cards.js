@@ -14,8 +14,8 @@ const Cards = ({ title, description }) => {
         <div className="absolute blur duration-500 group-hover:blur-none w-36 h-36 rounded-full group-hover:translate-x-12 group-hover:-translate-y-12 bg-cyan-800 right-1 -top-12"></div>
         <div className="absolute blur duration-500 group-hover:blur-none w-24 h-24  rounded-full bg-secondary group-hover:-translate-x-12"></div>
         <div className="z-10 flex flex-col w-full h-full">
-          <span className="text-2xl font-bold">{title}</span>
-          <p>{description}</p>
+          <span className="lg:text-2xl md:text-xl font-bold">{title}</span>
+          <p className="md:text-sm lg:text-lg">{description}</p>
         </div>
       </div>
     </div>
