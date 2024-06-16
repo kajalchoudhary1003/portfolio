@@ -16,7 +16,13 @@ module.exports = {
     //     "2xl": "1400px",
     //   },
     // },
+   
+
     extend: {
+      screens:{
+        'xl' : '1440px',
+        '2xl': '2560px',
+      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },

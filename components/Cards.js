@@ -8,7 +8,7 @@ const pop = Poppins({
 const Cards = ({ title, description }) => {
   return (
     <div className={`${pop.className}`}>
-      <div className="w-96 h-64 duration-500 group overflow-hidden relative rounded-lg bg-primary border-2 border-light text-neutral-50 p-4 flex flex-col justify-evenly">
+      <div className="w-96 h-64 md:w-80 md:h-60 lg:w-96 lg:h-64 duration-500 group overflow-hidden relative rounded-lg bg-primary border-2 border-light text-neutral-50 p-4 flex flex-col justify-evenly">
         <div className="absolute blur duration-500 group-hover:blur-none w-72 h-72 rounded-full group-hover:translate-x-12 group-hover:translate-y-12 bg-cyan-900 right-1 -bottom-24"></div>
         <div className="absolute blur duration-500 group-hover:blur-none w-12 h-12 rounded-full group-hover:translate-x-12 group-hover:translate-y-2 bg-[#FF8080] right-12 bottom-12"></div>
         <div className="absolute blur duration-500 group-hover:blur-none w-36 h-36 rounded-full group-hover:translate-x-12 group-hover:-translate-y-12 bg-cyan-800 right-1 -top-12"></div>

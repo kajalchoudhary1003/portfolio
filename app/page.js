@@ -21,7 +21,7 @@ export default function Home() {
     <>
       {/* navigation */}
       <div className={`${pop.className}`}>
-        <nav className="3xl:container bg-primary mx-auto  lg:px-10 flex flex-row justify-between pb-2">
+        <nav className=" bg-primary mx-auto  lg:px-10 flex flex-row justify-between pb-2">
           <div className="name">
             <h3
               className={`${ram.className} kajal text-light lg:text-4xl md: text-2xl ml-2 cursor-pointer hover:skew-y-2`}
