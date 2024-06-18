@@ -48,7 +48,7 @@
 animation: gradientAnimation 3s ease-out infinite;
 }
 
-
+/* skill moving animation */
 @keyframes moveHorizontally {
     0% {
       transform: translateX(-10px);

@@ -191,7 +191,7 @@ export default function Home() {
 
         <div className="relative z-10 xl:p-6 lg:py-2 ">
           <p
-            className={`${ram.className} text-center text-light xl:text-3xl md:text-2xl uppercase`}
+            className={`${ram.className} text-center text-light xl:text-4xl md:text-2xl uppercase xl:pb-2`}
           >
             Projects
           </p>
@@ -201,7 +201,7 @@ export default function Home() {
               alt="arrow"
               width={50}
               height={50}
-              className="animate-bounce mt-4 xl:h-14 xl:w-14 lg:w-10 lg:h-10 md:h-8 md:w-8"
+              className="animate-bounce xl:mt-2 md:mt-2 xl:h-14 xl:w-14 lg:w-10 lg:h-10 md:h-8 md:w-8"
             />
           </div>
         </div>

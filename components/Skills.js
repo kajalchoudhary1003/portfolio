@@ -39,11 +39,11 @@ const Skills = () => {
   return (
     <div className="bg-primary py-8 ">
       <div className="flex flex-row justify-center gap-6 movingHeading">
-        <Image src="/icons8-book-50.png" width={40} height={40} />
+        <Image src="/icons8-book-50.png" width={40} height={40}  />
         <Image src="/icons8-idea-50.png" width={40} height={40} />
 
         <h1
-          className={`${ram.className} uppercase text-center text-4xl text-light`}
+          className={`${ram.className} uppercase text-center xl:text-4xl md:text-2xl text-light`}
         >
           Skills
         </h1>
