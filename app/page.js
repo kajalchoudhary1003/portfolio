@@ -6,6 +6,7 @@ import Typewriter from "typewriter-effect";
 import "./globals.css";
 import { Button } from "@/components/ui/button";
 import Projects from "@/components/Projects";
+import Skills from "@/components/Skills";
 
 const pop = Poppins({
   weight: "400",
@@ -206,6 +207,7 @@ export default function Home() {
         </div>
       </div>
       <Projects/>
+      <Skills/>
     </>
   );
 }

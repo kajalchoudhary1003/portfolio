@@ -47,3 +47,20 @@
     background-size: 200% 200%;
 animation: gradientAnimation 3s ease-out infinite;
 }
+
+
+@keyframes moveHorizontally {
+    0% {
+      transform: translateX(-10px);
+    }
+    50% {
+      transform: translateX(10px);
+    }
+    100% {
+      transform: translateX(-10px);
+    }
+  }
+  
+  .movingHeading {
+    animation: moveHorizontally 3s ease-in-out infinite;
+  }
